@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Css.css" type="text/css">
+  
+  </head>
+<title>Concert Tickets</title>
+
+
+
+
+<!-- Css Project Start-->
+
+</head>
+
+
+
+<!-- Body Start-->
+<body>
+
+
+<!-- Header Start-->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <h1> Tickets Available </h1>
+	  <h4>(01) 123456<h4>
+	  <h4>Conzerttickets@hotmail.ie</h4>
+    </div>
+	<!--list!-->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>	
+        <li><a href="mens.html">Coming soon</a></li>
+        <li><a href="womens.html">Recent Concerts</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>		
+		<li><a href="login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+    <div class="wrapper row2">
+  <div id="container" class="clear">
+    <h2>Coming soon!</h2>
+<!-- Mens 1 Block -->
+<article class="one_third">
+    <script type="text/javascript">
+        var XMLHttpRequestObject = false; //new variable = false
+
+        if (window.XMLHttpRequest) {
+            XMLHttpRequestObject = new XMLHttpRequest();   
+        } else if (window.ActiveXObject) {
+            XMLHttpRequestObject =
+              new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        function getData(datasource, divID) {
+            if (XMLHttpRequestObject) {
+                XMLHttpRequestObject.open("GET", datasource);
+                XMLHttpRequestObject.onreadystatechange = function ()
+                {
+                    if (XMLHttpRequestObject.readyState == 4 
+                     && XMLHttpRequestObject.status == 200) {
+                      var body = document.getElementsByTagName('body');
+                      
+                      
+                     //remove, if exsists
+                      if (document.getElementById(divID)){
+                        body[0].removeChild(document.getElementById(divID));
+                      }
+                      var ajaxDesc = document.createElement('div');
+                      ajaxDesc.id = divID;
+                      ajaxDesc.innerHTML = XMLHttpRequestObject.responseText;
+                      body[0].appendChild(ajaxDesc);                       
+                    }
+                }
+                XMLHttpRequestObject.send(null);
+            }
+        }
+     
+    </script>
+<h4>Kanye</h4>
+  <p>
+   <table>
+               <tr>
+                  <td><img src="Kanye.jpg" onmouseover="getData('Kanye.txt','ajaxDesc')"/></td>
+               </tr>
+  </table>
+	</p>
+  <div id ="ajaxDesc"></div>
+    </article>
+      </div>
+    </div>
+  </header>
+  </div>
+  </body>
+</html>
+
+
+
