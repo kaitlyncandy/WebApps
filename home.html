@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="Home.css" type="text/css">
+ 
+  </head>
+  
+<title>Home</title>
+
+</head>
+
+<!-- Body Start-->
+<body>
+
+
+<!-- Header Start-->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <img src ="Logo.jpg">
+		</div>
+	
+		
+	<!--Menu tab!-->
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>	
+        <li><a href="Index.html">Coming soon</a></li>
+				<li><a href="login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>	
+</div>
+    <div class="wrapper row2">
+  <div id="container" class="clear">
+  
+  	<!--Body start-->
+    <h2>Just Announced</h2>
+<body>
+
+
+	<!--slideshow!-->
+<div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  
+  <center><img src="riri.jpg" style="width:70%"></center>
+
+</div>
+
+
+<div class="mySlides fade">
+ 
+  <center><img src="Eminem.jpg" style="width:70%"></center>
+ 
+</div>
+
+<div class="mySlides fade">
+ 
+  <center> <img src="Calvin.jpg" style="width:70%"> </center>
+
+</div>
+
+<div class="mySlides fade">
+  
+  <center><img src="kanye.jpg" style="width:70%"></center>
+
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+</div>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+<!-- Contact us form  -->
+<div class="wrapper row4">
+<br> <br>
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" class="rounded" /> 
+  <br>
+  Last name:<br>
+   <input type="text" class="rounded" /> 
+  <br>
+  Email address:<br>
+  <input type="email" class="rounded" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+    
+  <br> <br>
+
+  <textarea rows="8" cols="50" name="comment" form="usrform">
+Leave your message here...</textarea>
+
+</form> 
+<!--contact us button-->
+<a href="#" class="Contactus">Contact us</a>
+
+<!-- Copyright Content -->
+<div class="wrapper row4"> 
+<img src="media.png" style="width:50%">
+<footer id="copyright" class="clear">
+<p align="left" > Copyright &copy; 2016  All Rights Reserved  <a href="index.html"></a></p>
+
+</footer>
+</div>
+</body>
+</html>
+	

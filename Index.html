@@ -1,8 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="Css.css" type="text/css">
-  
+  <link rel="stylesheet" href="Comingsoon.css" type="text/css">
+  <script type="text/javascript">
+        var XMLHttpRequestObject = false;
+
+        if (window.XMLHttpRequest) {
+            XMLHttpRequestObject = new XMLHttpRequest();
+        } else if (window.ActiveXObject) {
+            XMLHttpRequestObject =
+              new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        function getData(datasource, divID) {
+            if (XMLHttpRequestObject) {
+                var obj = document.getElementById(divID);
+                XMLHttpRequestObject.open("GET", datasource, true);
+                XMLHttpRequestObject.onreadystatechange = function () {
+                    if (XMLHttpRequestObject.readyState == 4 
+                     && XMLHttpRequestObject.status == 200) {
+                        obj.innerHTML = 
+                        XMLHttpRequestObject.responseText;
+                    }
+                }
+                XMLHttpRequestObject.send(null);
+            }
+        }
+    </script>
+
   </head>
 <title>Concert Tickets</title>
 
@@ -23,75 +47,254 @@
 <div class="wrapper row1">
   <header id="header" class="clear">
     <div id="hgroup">
-      <h1> Tickets Available </h1>
-	  <h4>(01) 123456<h4>
-	  <h4>Conzerttickets@hotmail.ie</h4>
-    </div>
-	<!--list!-->
+      <img src ="Logo.jpg">
+		</div>
+	
+		
+	<!--Menu bar -->
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>	
-        <li><a href="mens.html">Coming soon</a></li>
-        <li><a href="womens.html">Recent Concerts</a></li>
-        <li><a href="contactus.html">Contact Us</a></li>		
-		<li><a href="login.html">Log In</a></li>
+        <li><a href="home.html"><u>Home</u></a></li>	
+        <li><a href="Index.html"><u>Coming soon</u></a></li>
+				<li><a href="login.html"><u>Log In</u></a></li>
       </ul>
     </nav>
-  </header>
+		
+		
+  </header>	
 </div>
     <div class="wrapper row2">
   <div id="container" class="clear">
-    <h2>Coming soon!</h2>
-<!-- Mens 1 Block -->
+    <h2>Coming Soon to Dublin's 3 Areana</h2>
+<!--  -->
 <article class="one_third">
-    <script type="text/javascript">
-        var XMLHttpRequestObject = false; //new variable = false
 
-        if (window.XMLHttpRequest) {
-            XMLHttpRequestObject = new XMLHttpRequest();   
-        } else if (window.ActiveXObject) {
-            XMLHttpRequestObject =
-              new ActiveXObject("Microsoft.XMLHTTP");
-        }
-        function getData(datasource, divID) {
-            if (XMLHttpRequestObject) {
-                XMLHttpRequestObject.open("GET", datasource);
-                XMLHttpRequestObject.onreadystatechange = function ()
-                {
-                    if (XMLHttpRequestObject.readyState == 4 
-                     && XMLHttpRequestObject.status == 200) {
-                      var body = document.getElementsByTagName('body');
-                      
-                      
-                     //remove, if exsists
-                      if (document.getElementById(divID)){
-                        body[0].removeChild(document.getElementById(divID));
-                      }
-                      var ajaxDesc = document.createElement('div');
-                      ajaxDesc.id = divID;
-                      ajaxDesc.innerHTML = XMLHttpRequestObject.responseText;
-                      body[0].appendChild(ajaxDesc);                       
-                    }
-                }
-                XMLHttpRequestObject.send(null);
-            }
-        }
-     
-    </script>
-<h4>Kanye</h4>
-  <p>
-   <table>
-               <tr>
-                  <td><img src="Kanye.jpg" onmouseover="getData('Kanye.txt','ajaxDesc')"/></td>
-               </tr>
-  </table>
-	</p>
-  <div id ="ajaxDesc"></div>
-    </article>
+<h4>Kanye West</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="kanye.jpg" alt="Kanye" width="300" height="300">
+	<script>
+  </head>
+function bigImg(x) {
+    x.style.height = "30000px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("p").hover(function(){
+        $(this).css("background-color", "yellow");
+        }, function(){
+        $(this).css("background-color", "pink");
+    });
+	/* Artists pictures/prices*/
+</script>
+		<footer class="more"><a href="Mens.html"><span>&euro;79:99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+<article class="one_third">
+<h4>Eminem</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Eminem.jpg" alt="Eminem" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;99.99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+		<article class="one_third lastbox">
+<h4>Ariana</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Arianna.jpg" alt="Ariana" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;59.99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+	<article class="one_third">
+		<h4>Rihanna</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Rihanna.jpg" alt="Rihanna" width="200" height="200">
+	<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+	<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;89.99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+<article class="one_third">
+<h4>Calvin Harris</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Calvin.jpg" alt="Calvin" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;99.99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+		<article class="one_third lastbox">
+<h4>Kendrick Lamar</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Kendrick.jpg" alt="Kendrick" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;69:99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+	<article class="one_third lastbox">
+	<h4>Chris Brown</h4>
+ 
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Chris.jpg" alt="Chris Brown" width="200" height="200">
+	<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+	<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;79:99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+<article class="one_third">
+<h4>Shawn Mendes</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="Shawn.jpg" alt="Shawn Mendes" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;49:99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
+		<article class="one_third lastbox">
+<h4>James Arthur</h4>
+<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" border="0" src="James.jpg" alt="James Arhur" width="200" height="200">
+		<script>
+function bigImg(x) {
+    x.style.height = "300px";
+    x.style.width = "300px";
+}
+
+function normalImg(x) {
+    x.style.height = "200px";
+    x.style.width = "200px";
+}
+</script>
+<figcaption>
+<footer class="more"><a href="Mens.html"><span>&euro;59:99&raquo;</span></a></footer>
+</figcaption>
+</figure>
+</article>
       </div>
     </div>
-  </header>
   </div>
+<!-- Footer -->
+<div class="wrapper row3">
+
+<!-- Contact us form  -->
+<div class="wrapper row4">
+<br> <br> <br> <br>
+<form action="action_page.php">
+  First name:<br>
+  <input type="text" class="rounded" /> 
+  <br>
+  Last name:<br>
+   <input type="text" class="rounded" /> 
+  <br>
+  Email address:<br>
+  <input type="email" class="rounded" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+    
+  <br> <br>
+
+  <textarea rows="8" cols="50" name="comment" form="usrform">
+Leave your message here...</textarea>
+
+</form> 
+
+
+<!-- About us blue button -->
+<div class="wrapper row4">
+<a href="#" class="Contactus">Contact us</a>
+
+
+
+<!-- Copyright Content -->
+<div class="wrapper row4"> 
+<img src="media.png" style="width:50%">
+<footer id="copyright" class="clear">
+<p align="left" > Copyright &copy; 2016  All Rights Reserved  <a href="index.html"></a></p>
+
+</footer>
+</div>
+</div>
+</body>
+</html>
   </body>
 </html>
 

@@ -1,0 +1,39 @@
+html{
+overflow-y:scroll;
+}
+/* Body*/
+body{
+margin:0; 
+padding:0; 
+font-size:13px; 
+font-family:Georgia, "Times New Roman", Times, serif; 
+color:white; 
+background-color:white;
+}
+
+
+
+
+/*Wrapper*/
+div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
+.row1, .row1 a{background-color:white;font-family:Lucida Sans Unicode;font-color:white;height: 175px;}
+.row2{color:black; background-image:url("bg4.jpg");}
+.row3{color:#989898; background-color:#A6C5E6;}
+.row3 a{color:black;}
+.row4, .row4 a{color:#919191; background-color:black;}
+#header, #container, #footer, #copyright{display:block; width:960px; margin:0 auto;}
+
+
+#header #hgroup{float:left; margin:0 0 20px 0;color:black;Georgia,"Times New Roman",Times,serif;}
+#header{padding:20px 0;}
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:black; background-color:white;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav ul{padding:0 20px;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:#C0BAB6; background-color:#232323;}
+#header nav li a:hover{background-color:black;}
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}

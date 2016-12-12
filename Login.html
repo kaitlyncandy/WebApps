@@ -1,0 +1,75 @@
+
+  
+  <!DOCTYPE html>
+<html>
+<head><title>Login page</title></head>
+  <link rel="stylesheet" href="Login.css" type="text/css">
+
+
+<!-- Body Start-->
+<body>
+
+
+<!-- Header Start-->
+<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <img src ="Logo.jpg">
+		</div>
+	
+		
+	<!--Menu tab!-->
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>	
+        <li><a href="Index.html">Coming soon</a></li>
+				<li><a href="login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>	
+</div>
+    <div class="wrapper row2">
+  <div id="container" class="clear">
+  <div class="wrapper row2">
+  <div id="container" class="clear">
+
+<div align="center">
+<h1 style="font-family:Comic Sans MS;text-align="center"";font-size:50pt;color:#00FF00;>
+</h1>  
+<form name="login">
+Username: &nbsp <input type="text" name="userid" class="rounded" />
+<br>
+Password:  &nbsp  <input type="password" name="password" class="rounded" /><br><br>
+<input type="button" onclick="check(this.form)" value="Login"/> 
+<input type="reset" value="Cancel"/>
+</form>
+<script language="javascript">
+ 
+function check(form)/*function to check userid & password*/
+{
+/*the following code checkes whether the entered userid and password are matching*/
+if(form.userid.value == "user1" && form.password.value == "pass1")
+{
+window.open('success.html')
+}
+else
+{
+alert("Incorrect Username or Password")/*displays error message*/
+}
+
+</script>
+</div
+<!--login/cancel-->
+<a href="#" class="Login">Login</a>
+<a href="#" class="Cancel">Cancel</a
+
+
+<!-- Copyright Content -->
+<div class="wrapper row4"> 
+<img src="media.png" style="width:50%">
+<footer id="copyright" class="clear">
+<p align="left" > Copyright &copy; 2016  All Rights Reserved  <a href="index.html"></a></p>
+
+</body>
+</html>
+  
