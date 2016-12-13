@@ -1,0 +1,802 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet href="timetable.xsl" type="text/xsl"?>
+<timetable>
+	<january>
+		<time>
+			<name>James Arthur</name>
+			<classes>
+				<lab>
+					<date>15th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Ariana Grande</name>
+			<classes>
+				<lab>
+					<date>16th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Little Mix</name>
+			<classes>
+				<lab>
+					<date>17th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>U2</name>
+			<classes>
+				<lab>
+					<date>18th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Green Day</name>
+			<classes>
+				<lab>
+					<date>19th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Justin Beiber</name>
+			<classes>
+				<lab>
+					<date>20th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Selena Gomez</name>
+			<classes>
+				<lab>
+					<date>21st January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Kanye West</name>
+			<classes>
+				<lab>
+					<date>22nd January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Calvin Harris</name>
+			<classes>
+				<lab>
+					<date>23rd January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Taylor Swift</name>
+			<classes>
+				<lab>
+					<date>24th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Zara Larson</name>
+			<classes>
+				<lab>
+					<date>25th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Red Hot Chilli Peppers</name>
+			<classes>
+				<lab>
+					<date>26th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Britney Spears</name>
+			<classes>
+				<lab>
+					<date>27th January</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</january>
+	
+	<febuary>
+		<time>
+			<name>Honey G</name>
+			<classes>
+				<lab>
+					<date>7 Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>One Direction</name>
+			<classes>
+				<lab>
+					<date>8 Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Hannah Montanna</name>
+			<classes>
+				<lab>
+					<date>9th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Miley Cyrus</name>
+			<classes>
+				<lab>
+					<date>10th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Billy Ray Cyrus</name>
+			<classes>
+				<lab>
+					<date>11th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Ellie Goulding</name>
+			<classes>
+				<lab>
+					<date>12th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Fall Out Boy</name>
+			<classes>
+				<lab>
+					<date>13th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Witus</name>
+			<classes>
+				<lab>
+					<date>14th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Leaona Lewis</name>
+			<classes>
+				<lab>
+					<date>15th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Chris Brown</name>
+			<classes>
+				<lab>
+					<date>16th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Kendrick Lamar</name>
+			<classes>
+				<lab>
+					<date>17th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Keasha</name>
+			<classes>
+				<lab>
+					<date>18th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Christina Agulara</name>
+			<classes>
+				<lab>
+					<date>18th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</febuary>
+	
+	<march>
+		<time>
+			<name>Twenty One Pilots</name>
+			<classes>
+				<lab>
+					<date>1st March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The 1975</name>
+			<classes>
+				<lab>
+					<date>2nd March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Bob Dylan</name>
+			<classes>
+				<lab>
+					<date>3rd March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Sia</name>
+			<classes>
+				<lab>
+					<date>4th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Strokes</name>
+			<classes>
+				<lab>
+					<date>24th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Muse</name>
+			<classes>
+				<lab>
+					<date>6th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Hozier</name>
+			<classes>
+				<lab>
+					<date>7th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>AC/DC</name>
+			<classes>
+				<lab>
+					<date>8th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Elton John</name>
+			<classes>
+				<lab>
+					<date>9th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Rolling Stones</name>
+			<classes>
+				<lab>
+					<date>10th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Disclosure</name>
+			<classes>
+				<lab>
+					<date>11th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Daft Punk</name>
+			<classes>
+				<lab>
+					<date>12th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Doors</name>
+			<classes>
+				<lab>
+					<date>13th March</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</march>
+	
+	<april>
+		<time>
+			<name>Metallica</name>
+			<classes>
+				<lab>
+					<date>14th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Coldplay</name>
+			<classes>
+				<lab>
+					<date>8 april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Clean Bandit</name>
+			<classes>
+				<lab>
+					<date>9th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Justin Timberlake</name>
+			<classes>
+				<lab>
+					<date>10th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Drake</name>
+			<classes>
+				<lab>
+					<date>11th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Smiths</name>
+			<classes>
+				<lab>
+					<date>12th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Bruno Mars</name>
+			<classes>
+				<lab>
+					<date>13th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Eagles</name>
+			<classes>
+				<lab>
+					<date>14th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>The Chainsmokers</name>
+			<classes>
+				<lab>
+					<date>15th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Davie Bowie</name>
+			<classes>
+				<lab>
+					<date>16th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Bonobo</name>
+			<classes>
+				<lab>
+					<date>17th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Martin Gaye</name>
+			<classes>
+				<lab>
+					<date>18th Febuary</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Foals</name>
+			<classes>
+				<lab>
+					<date>18th april</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</april>
+	
+	<may>
+		<time>
+			<name>Jogn Mayer</name>
+			<classes>
+				<lab>
+					<date>6th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Blur</name>
+			<classes>
+				<lab>
+					<date>7th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>R.E.M</name>
+			<classes>
+				<lab>
+					<date>8th May</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Moby</name>
+			<classes>
+				<lab>
+					<date>9th May</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Dnce</name>
+			<classes>
+				<lab>
+					<date>10th May</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Coldplay</name>
+			<classes>
+				<lab>
+					<date>11th May</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Oasis</name>
+			<classes>
+				<lab>
+					<date>13th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Birdy</name>
+			<classes>
+				<lab>
+					<date>14th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Grimes</name>
+			<classes>
+				<lab>
+					<date>15th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Alan Walker</name>
+			<classes>
+				<lab>
+					<date>16th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Flume</name>
+			<classes>
+				<lab>
+					<date>17th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Hozier</name>
+			<classes>
+				<lab>
+					<date>18th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Adele</name>
+			<classes>
+				<lab>
+					<date>19th may</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</may>
+	
+	<june>
+		<time>
+			<name>Katy Perry</name>
+			<classes>
+				<lab>
+					<date>7 june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Kelly Clarkson</name>
+			<classes>
+				<lab>
+					<date>8 june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Queen</name>
+			<classes>
+				<lab>
+					<date>9th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Modanna</name>
+			<classes>
+				<lab>
+					<date>10th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Sia</name>
+			<classes>
+				<lab>
+					<date>11th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Blink 182</name>
+			<classes>
+				<lab>
+					<date>12th June</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Lorde</name>
+			<classes>
+				<lab>
+					<date>13th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Beck</name>
+			<classes>
+				<lab>
+					<date>14th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>alt-j</name>
+			<classes>
+				<lab>
+					<date>15th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Jonas Blue</name>
+			<classes>
+				<lab>
+					<date>16th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Sting</name>
+			<classes>
+				<lab>
+					<date>17th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Justice</name>
+			<classes>
+				<lab>
+					<date>18th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+		<time>
+			<name>Bastille</name>
+			<classes>
+				<lab>
+					<date>18th june</date>
+					<time>5pm-10pm</time>
+					<venue>3 Arena</venue>
+				</lab>
+			</classes>
+		</time>
+	</june>
+	
+</timetable>

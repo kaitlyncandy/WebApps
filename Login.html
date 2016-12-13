@@ -1,0 +1,68 @@
+<html>
+	<link rel="stylesheet" href="Login.css" type="text/css">
+<head><title>Login page</title></head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js">
+</script>
+	
+	<div class="wrapper row1">
+  <header id="header" class="clear">
+    <div id="hgroup">
+      <img src ="Logo.jpg">
+		</div>
+		
+		<!--Menu tab!-->
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>	
+        <li><a href="Index.html">Coming soon</a></li>
+				<li><a href="Login.html">Log In</a></li>
+      </ul>
+    </nav>
+  </header>	
+</div>
+    <div class="wrapper row2">
+  <div id="container" class="clear">
+	
+		<br> <br> <br> <br>
+	<div align ="center">
+			
+<script>
+   $(document).ready(function(){
+   var xml;
+  $('#b1').click(function(){
+       $.get('form.xml', null, function (data, textStatus) {
+           xml=data;
+            $(xml).find('details').each( function(){
+                var item = $(this);
+
+                if(item.find('username').text()==$('#userid').val() && item.find('password').text()==$('#pwd').val())
+                {
+                    window.open('success.html');
+								}
+								else	{
+											window.alert("Wrong Username or Password");
+										}
+								
+           });
+        });
+    });
+});
+    </script>
+		</div>
+<body>
+<div align="center">
+<h1> Welcome to Login Page </h1>
+	<br> <br> <br> <br> <br> <br>
+Username: &nbsp <input type="text" id="userid" name="userid"/><br><br>
+Password:  &nbsp  <input type="password" id="pwd" name="paasword"/><br><br>
+<input type="button" id="b1" value="Login"/>
+<input type="reset" value="Cancel"/>
+	
+	
+	<footer id="copyright" class="clear">
+<p align="left" > <br> <br> <br><br> <br> <br> <br> <br> <br> <br>  <a href="index.html"></a></p>
+
+</footer>
+</div>
+</body>
+</html>
